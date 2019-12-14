@@ -2127,7 +2127,7 @@ i.iconfont.hotpost {
     border-radius:5px
 }
 .entry-content a {
-    color:#e67474;
+    color:#d81e1e;
     text-decoration:underline dotted rgba(0,0,0,.1)
 }
 .entry-content a:hover {
@@ -2162,7 +2162,7 @@ h1.entry-title {
     vertical-align:sub
 }
 .entry-content p {
-    color:#000
+    color:#333
 }
 .entry-content p {
     line-height:30px
@@ -4720,7 +4720,7 @@ i.iconfont.down {
         font-size:18px
     }
     .entry-content p {
-        font-size:14px
+        font-size:18px
     }
     .post-footer,.post-share,.post-like {
         display:none
@@ -4728,7 +4728,7 @@ i.iconfont.down {
     .post-tags {
         text-align:center;
         float:none;
-        font-size:12px
+        font-size:16px
     }
     .author-profile {
         display:none
@@ -4758,7 +4758,7 @@ i.iconfont.down {
         vertical-align:middle
     }
     .site-title {
-        font-size:20px;
+        font-size:24px;
         margin-right:10px
     }
     .links ul li {
@@ -4833,12 +4833,12 @@ h3#comments-list-title,nav#comments-navi {
 }
 .wrapper section h1 {
     font-weight:300;
-    font-size:30px;
+    font-size:36px;
     margin-bottom:10px
 }
 .wrapper section h2 {
     font-weight:300;
-    font-size:20px;
+    font-size:24px;
     margin-bottom:40px
 }
 .wrapper section p {
@@ -4976,7 +4976,7 @@ i.iconfont.js-toggle-search.iconsearch {
     padding:5px 9px
 }
 #mo-nav li ul li a {
-    font-size:13px;
+    font-size:15px;
     color:#9cacc5
 }
 #mo-nav ul li a:hover {
