@@ -863,7 +863,7 @@ blockquote:before {
     position:absolute;
     top:-25px;
     left:12px;
-    color:orange;
+    color:#e65a56;
     font-family:FontAwesome
 }
 blockquote:after {
@@ -872,7 +872,7 @@ blockquote:after {
     position:absolute;
     bottom:-25px;
     right:-5px;
-    color:orange;
+    color:#e65a56;
     font-family:FontAwesome
 }
 blockquote p {
@@ -1021,14 +1021,14 @@ a {
     transition:color .2s ease-out,border .2s ease-out,opacity .2s ease-out
 }
 a:hover,a:focus,a:active {
-    color:orange
+    color:#e65a56
 }
 a:focus {
     outline:0
 }
 a:hover,a:active {
     outline:0;
-    color:orange
+    color:#e65a56
 }
 .site-top {
     width:100%;
@@ -1383,7 +1383,7 @@ a:hover,a:active {
     font-weight:400
 }
 .site-title a:hover {
-    color:orange
+    color:#e65a56
 }
 .site-title img {
     height:40px;
@@ -1479,7 +1479,7 @@ a:hover,a:active {
     color:#666
 }
 .site-top ul li a:hover {
-    color:orange
+    color:#e65a56
 }
 .site-top ul li a:after {
     content:"";
@@ -1670,7 +1670,7 @@ a:hover,a:active {
     color:#504e4e
 }
 .entry-title a:hover {
-    color:orange
+    color:#e65a56
 }
 .p-time {
     position:absolute;
@@ -2029,7 +2029,7 @@ i.iconfont.hotpost {
     color:#b9b9b9
 }
 .site-info a:hover {
-    color:orange
+    color:#e65a56
 }
 .footertext p {
     margin-bottom:8px
@@ -2138,7 +2138,7 @@ i.iconfont.hotpost {
     text-decoration:underline dotted rgba(0,0,0,.1)
 }
 .entry-content a:hover {
-    color:orange;
+    color:#e65a56;
     text-decoration:underline orange
 }
 h1.entry-title {
@@ -2166,7 +2166,7 @@ h1.entry-title {
     vertical-align:sub
 }
 .entry-content p {
-    color:#353535
+    color:#444444
 }
 .entry-content p {
     line-height:30px
@@ -2218,9 +2218,9 @@ h1.entry-title {
 h1.page-title {
     font-size:20px;
     font-weight:400;
-    border:1px dashed #ddd;
+    border:1px dashed rgb(255, 255, 255);
     padding:10px 15px;
-    color:#828282;
+    color:#161616;
     margin-bottom:30px
 }
 h1.page-title.mb- {
@@ -2319,7 +2319,7 @@ h1.page-title.mb- {
     margin-right:5px
 }
 .post-tags a:hover {
-    color:orange
+    color:#e65a56
 }
 .post-tags i {
     margin-right:5px
@@ -2379,7 +2379,7 @@ h1.page-title.mb- {
     margin-right:10px
 }
 .post-share ul li a:hover {
-    color:orange
+    color:#e65a56
 }
 .post-share .show-share {
     margin-left:10px;
@@ -3018,7 +3018,7 @@ h1.works-title {
     font-style:italic;
     font-size:20px;
     font-weight:400;
-    color:orange;
+    color:#e65a56;
     margin-left:30px;
     margin-top:50px
 }
@@ -3152,7 +3152,7 @@ header.page-header {
     -ms-transform:rotate(360deg)
 }
 span.sitename {
-    color:orange;
+    color:#e65a56;
     padding-bottom:10px;
     display:block;
     -webkit-transition:all .3s;
@@ -3187,7 +3187,7 @@ span.sitename {
 }
 .links ul li:before {
     content:"";
-    background-color:orange;
+    background-color:#e65a56;
     -webkit-transform:skew(45deg,0);
     transform:skew(45deg,0);
     width:0;
@@ -3478,7 +3478,7 @@ a.page-numbers {
     font-weight:600
 }
 .comment h4 a:hover {
-    color:orange
+    color:#e65a56
 }
 .comment hr {
     clear:both;
@@ -4319,7 +4319,7 @@ i.iconfont.js-toggle-search.iconsearch {
 }
 .s-search input {
     font-size:1rem;
-    background:#none;
+    /*background:#none;*/
     padding:12px 24px 12px 64px;
     width:100%;
     outline:0;
@@ -4356,7 +4356,7 @@ i.iconfont.js-toggle-search.iconsearch {
     padding:10px 0
 }
 .sorry li a:hover {
-    color:orange
+    color:#e65a56
 }
 .sorry-inner {
     padding:20px;
@@ -4372,7 +4372,7 @@ i.iconfont.js-toggle-search.iconsearch {
     padding:10px 30px;
     margin:0 10px;
     border:1px solid orange;
-    color:orange;
+    color:#e65a56;
     -webkit-border-radius:50px;
     -moz-border-radius:50px;
     border-radius:50px
@@ -4527,8 +4527,8 @@ embed,iframe,object {
     height:20px;
     box-sizing:border-box;
     border:solid 3px transparent;
-    border-top-color:orange;
-    border-left-color:orange;
+    border-top-color:#e65a56;
+    border-left-color:#e65a56;
     border-radius:50%;
     -webkit-animation:nprogress-spinner 400ms linear infinite;
     animation:nprogress-spinner 400ms linear infinite
@@ -4633,7 +4633,7 @@ i.iconfont.down {
 }
 #pagination a:hover {
     border:1px solid orange;
-    color:orange
+    color:#e65a56
 }
 #pagination .loading {
     background:url("https://cdn.jsdelivr.net/gh/tikas/cdn@1.1/img/other/wordpress-rotating-ball-o.svg");
@@ -4796,7 +4796,7 @@ i.iconfont.down {
         display:none
     }
     .links ul li:hover .sitename {
-        color:orange
+        color:#e65a56
     }
     .links ul li:hover .linkdes {
         color:#949494;
@@ -5009,7 +5009,7 @@ i.iconfont.js-toggle-search.iconsearch {
 }
 #mo-nav ul li a:hover {
     cursor:pointer;
-    color:orange
+    color:#e65a56
 }
 .we-content li {
     height:250px
@@ -5804,11 +5804,11 @@ button.botui-actions-buttons-button {
     width:auto
 }
 .logolink a:hover .sakurasono {
-    background-color:orange;
+    background-color:#e65a56;
     color:#fff
 }
 .logolink a:hover .shironeko,.logolink a:hover rt {
-    color:orange
+    color:#e65a56
 }
 .logolink.moe-mashiro a {
     color:#464646;
@@ -6191,7 +6191,7 @@ button.botui-actions-buttons-button {
 }
 @media(min-width:861px) {
     .hide-live2d {
-    background-color:orange;
+    background-color:#e65a56;
     bottom:156px;
     visibility:visible;
     min-height:38.75px
@@ -6305,9 +6305,8 @@ button.botui-actions-buttons-button {
     font-size:20px
 }
 .changeSkin-gear i {
-    font-size:20px
-}
-}position:relative;
+    font-size:20px;
+    position:relative;
     z-index:99;
     cursor:pointer
 }
@@ -6599,7 +6598,7 @@ progress {
     color:#000
 }
 .art .art-content #archives a:hover {
-    color:orange
+    color:#e65a56
 }
 .art .art-content #archives .al_year {
     padding-left:100px
@@ -6750,7 +6749,7 @@ a.toc-link {
     width:2px
 }
 .is-active-link::before {
-    background-color:orange !important
+    background-color:#e65a56 !important
 }
 .flipx {
     -moz-transform:scaleX(-1);
@@ -6884,10 +6883,10 @@ to {
 }
 .motion-switcher-table th:hover {
     background-color:rgba(245,245,245,.5);
-    color:orange
+    color:#e65a56
 }
 .motion-switcher-table .on-hover {
-    color:orange
+    color:#e65a56
 }
 .motion-container {
     height:110px;
@@ -7119,7 +7118,7 @@ to {
     cursor:pointer
 }
 .insert-image-tips:hover {
-    color:orange;
+    color:#e65a56;
     border:1px solid orange
 }
 .insert-image-button {
@@ -7133,7 +7132,7 @@ to {
     cursor:pointer
 }
 .insert-image-tips-hover {
-    color:orange;
+    color:#e65a56;
     border:1px solid orange
 }
 .upload-image-preview {
