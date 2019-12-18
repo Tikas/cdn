@@ -838,15 +838,15 @@ td,th {
     padding:0
 }
 body,button,input,select,textarea {
-    color:#ff6d6d;
-    font-size:16px;
+    color:#404040;
+    font-size:15px;
     line-height:1.5
 }
 h1,h2,h3,h4,h5,h6 {
     clear:both
 }
 p {
-    margin-bottom:2.5em;
+    margin-bottom:1.5em;
     cursor:url(https://cdn.jsdelivr.net/gh/tikas/cdn@1.1/img/cursor/texto.cur),auto
 }
 dfn,cite,em,i {
@@ -863,7 +863,7 @@ blockquote:before {
     position:absolute;
     top:-25px;
     left:12px;
-    color:#e65a56;
+    color:orange;
     font-family:FontAwesome
 }
 blockquote:after {
@@ -872,7 +872,7 @@ blockquote:after {
     position:absolute;
     bottom:-25px;
     right:-5px;
-    color:#e65a56;
+    color:orange;
     font-family:FontAwesome
 }
 blockquote p {
@@ -907,7 +907,7 @@ kbd {
     font-family:'Source Code Pro',monospace,Helvetica,Tahoma,Arial,STXihei,"STHeiti Light","Microsoft YaHei",sans-serif
 }
 code,kbd,tt,var {
-    font-size:16px;
+    font-size:15px;
     font-size:.9375rem
 }
 abbr,acronym {
@@ -1021,14 +1021,14 @@ a {
     transition:color .2s ease-out,border .2s ease-out,opacity .2s ease-out
 }
 a:hover,a:focus,a:active {
-    color:#e65a56
+    color:orange
 }
 a:focus {
     outline:0
 }
 a:hover,a:active {
     outline:0;
-    color:#e65a56
+    color:orange
 }
 .site-top {
     width:100%;
@@ -1383,7 +1383,7 @@ a:hover,a:active {
     font-weight:400
 }
 .site-title a:hover {
-    color:#e65a56
+    color:orange
 }
 .site-title img {
     height:40px;
@@ -1479,7 +1479,7 @@ a:hover,a:active {
     color:#666
 }
 .site-top ul li a:hover {
-    color:#e65a56
+    color:orange
 }
 .site-top ul li a:after {
     content:"";
@@ -1608,7 +1608,7 @@ a:hover,a:active {
 }
 .site-content {
     max-width:800px;
-    padding:0 20px;
+    padding:0 10px;
     margin-left:auto;
     margin-right:auto;
     background-color:rgba(255,255,255,.8)
@@ -1670,7 +1670,7 @@ a:hover,a:active {
     color:#504e4e
 }
 .entry-title a:hover {
-    color:#e65a56
+    color:orange
 }
 .p-time {
     position:absolute;
@@ -1691,7 +1691,7 @@ i.iconfont.hotpost {
 .post-list p {
     min-height:60px;
     margin:0 0 0 17%;
-    font-size:16px;
+    font-size:15px;
     color:rgba(0,0,0,.66);
     letter-spacing:0;
     line-height:30px
@@ -1997,7 +1997,7 @@ i.iconfont.hotpost {
     margin:20px 0
 }
 .navigator i {
-    font-size:16px;
+    font-size:15px;
     color:#d8d8d8;
     padding:10px;
     border:2px solid #ddd;
@@ -2029,7 +2029,7 @@ i.iconfont.hotpost {
     color:#b9b9b9
 }
 .site-info a:hover {
-    color:#e65a56
+    color:orange
 }
 .footertext p {
     margin-bottom:8px
@@ -2050,9 +2050,9 @@ i.iconfont.hotpost {
 }
 .entry-content .begin,.single-begin {
     float:left;
-    font-size:3.6em;
-    line-height:1em;
-    margin-right:10px;
+    font-size:4.6em;
+    line-height:1.3em;
+    margin-right:3px;
     margin-top:5px;
     font-weight:bold
 }
@@ -2088,7 +2088,7 @@ i.iconfont.hotpost {
     color:#737373
 }
 .entry-content h3,.entry-content h4,.entry-content h5 {
-    padding-left:18px
+    padding-left:16px
 }
 .entry-content h2:after {
     content:"\00B6";
@@ -2125,8 +2125,8 @@ i.iconfont.hotpost {
     color:#ff6d6d
 }
 .entry-content code {
-    background:rgba(255,255,255,0);
-    color:#999;
+    background:rgba(254,250,199,1);
+    color:#e67474;
     word-break:break-word;
     font-family:'Source Code Pro',monospace,Helvetica,Tahoma,Arial,STXihei,"STHeiti Light","Microsoft YaHei",sans-serif;
     padding:2px;
@@ -2134,11 +2134,11 @@ i.iconfont.hotpost {
     border-radius:5px
 }
 .entry-content a {
-    color:#e67474;
+    color:#d81e1e;
     text-decoration:underline dotted rgba(0,0,0,.1)
 }
 .entry-content a:hover {
-    color:#e65a56;
+    color:orange;
     text-decoration:underline orange
 }
 h1.entry-title {
@@ -2166,7 +2166,7 @@ h1.entry-title {
     vertical-align:sub
 }
 .entry-content p {
-    color:#444444
+    color:#333
 }
 .entry-content p {
     line-height:30px
@@ -2218,9 +2218,9 @@ h1.entry-title {
 h1.page-title {
     font-size:20px;
     font-weight:400;
-    border:1px dashed rgb(255, 255, 255);
+    border:1px dashed #ddd;
     padding:10px 15px;
-    color:#161616;
+    color:#828282;
     margin-bottom:30px
 }
 h1.page-title.mb- {
@@ -2319,7 +2319,7 @@ h1.page-title.mb- {
     margin-right:5px
 }
 .post-tags a:hover {
-    color:#e65a56
+    color:orange
 }
 .post-tags i {
     margin-right:5px
@@ -2379,7 +2379,7 @@ h1.page-title.mb- {
     margin-right:10px
 }
 .post-share ul li a:hover {
-    color:#e65a56
+    color:orange
 }
 .post-share .show-share {
     margin-left:10px;
@@ -3018,7 +3018,7 @@ h1.works-title {
     font-style:italic;
     font-size:20px;
     font-weight:400;
-    color:#e65a56;
+    color:orange;
     margin-left:30px;
     margin-top:50px
 }
@@ -3152,7 +3152,7 @@ header.page-header {
     -ms-transform:rotate(360deg)
 }
 span.sitename {
-    color:#e65a56;
+    color:orange;
     padding-bottom:10px;
     display:block;
     -webkit-transition:all .3s;
@@ -3187,7 +3187,7 @@ span.sitename {
 }
 .links ul li:before {
     content:"";
-    background-color:#e65a56;
+    background-color:orange;
     -webkit-transform:skew(45deg,0);
     transform:skew(45deg,0);
     width:0;
@@ -3474,11 +3474,11 @@ a.page-numbers {
 }
 .comment h4 a {
     color:#e2684a;
-    font-size:16px;
+    font-size:15px;
     font-weight:600
 }
 .comment h4 a:hover {
-    color:#e65a56
+    color:orange
 }
 .comment hr {
     clear:both;
@@ -4319,7 +4319,7 @@ i.iconfont.js-toggle-search.iconsearch {
 }
 .s-search input {
     font-size:1rem;
-    /*background:#none;*/
+    background:#none;
     padding:12px 24px 12px 64px;
     width:100%;
     outline:0;
@@ -4356,7 +4356,7 @@ i.iconfont.js-toggle-search.iconsearch {
     padding:10px 0
 }
 .sorry li a:hover {
-    color:#e65a56
+    color:orange
 }
 .sorry-inner {
     padding:20px;
@@ -4372,7 +4372,7 @@ i.iconfont.js-toggle-search.iconsearch {
     padding:10px 30px;
     margin:0 10px;
     border:1px solid orange;
-    color:#e65a56;
+    color:orange;
     -webkit-border-radius:50px;
     -moz-border-radius:50px;
     border-radius:50px
@@ -4527,8 +4527,8 @@ embed,iframe,object {
     height:20px;
     box-sizing:border-box;
     border:solid 3px transparent;
-    border-top-color:#e65a56;
-    border-left-color:#e65a56;
+    border-top-color:orange;
+    border-left-color:orange;
     border-radius:50%;
     -webkit-animation:nprogress-spinner 400ms linear infinite;
     animation:nprogress-spinner 400ms linear infinite
@@ -4629,11 +4629,11 @@ i.iconfont.down {
 }
 #pagination span {
     color:#989898;
-    font-size:16px
+    font-size:15px
 }
 #pagination a:hover {
     border:1px solid orange;
-    color:#e65a56
+    color:orange
 }
 #pagination .loading {
     background:url("https://cdn.jsdelivr.net/gh/tikas/cdn@1.1/img/other/wordpress-rotating-ball-o.svg");
@@ -4745,7 +4745,7 @@ i.iconfont.down {
         font-size:18px
     }
     .entry-content p {
-        font-size:16px
+        font-size:18px
     }
     .post-footer,.post-share,.post-like {
         display:none
@@ -4756,7 +4756,7 @@ i.iconfont.down {
     .post-tags {
         text-align:center;
         float:none;
-        font-size:12px
+        font-size:16px
     }
     .author-profile {
         display:none
@@ -4786,7 +4786,7 @@ i.iconfont.down {
         vertical-align:middle
     }
     .site-title {
-        font-size:20px;
+        font-size:24px;
         margin-right:10px
     }
     .links ul li {
@@ -4796,7 +4796,7 @@ i.iconfont.down {
         display:none
     }
     .links ul li:hover .sitename {
-        color:#e65a56
+        color:orange
     }
     .links ul li:hover .linkdes {
         color:#949494;
@@ -4861,12 +4861,12 @@ h3#comments-list-title,nav#comments-navi {
 }
 .wrapper section h1 {
     font-weight:300;
-    font-size:30px;
+    font-size:36px;
     margin-bottom:10px
 }
 .wrapper section h2 {
     font-weight:300;
-    font-size:20px;
+    font-size:24px;
     margin-bottom:40px
 }
 .wrapper section p {
@@ -4993,7 +4993,7 @@ i.iconfont.js-toggle-search.iconsearch {
 }
 #mo-nav ul li a {
     color:#333;
-    font-size:16px
+    font-size:15px
 }
 #mo-nav li ul {
     width:250px;
@@ -5004,12 +5004,12 @@ i.iconfont.js-toggle-search.iconsearch {
     padding:5px 9px
 }
 #mo-nav li ul li a {
-    font-size:13px;
+    font-size:15px;
     color:#9cacc5
 }
 #mo-nav ul li a:hover {
     cursor:pointer;
-    color:#e65a56
+    color:orange
 }
 .we-content li {
     height:250px
@@ -5804,11 +5804,11 @@ button.botui-actions-buttons-button {
     width:auto
 }
 .logolink a:hover .sakurasono {
-    background-color:#e65a56;
+    background-color:orange;
     color:#fff
 }
 .logolink a:hover .shironeko,.logolink a:hover rt {
-    color:#e65a56
+    color:orange
 }
 .logolink.moe-mashiro a {
     color:#464646;
@@ -6191,7 +6191,7 @@ button.botui-actions-buttons-button {
 }
 @media(min-width:861px) {
     .hide-live2d {
-    background-color:#e65a56;
+    background-color:orange;
     bottom:156px;
     visibility:visible;
     min-height:38.75px
@@ -6598,7 +6598,7 @@ progress {
     color:#000
 }
 .art .art-content #archives a:hover {
-    color:#e65a56
+    color:orange
 }
 .art .art-content #archives .al_year {
     padding-left:100px
@@ -6749,7 +6749,7 @@ a.toc-link {
     width:2px
 }
 .is-active-link::before {
-    background-color:#e65a56 !important
+    background-color:orange !important
 }
 .flipx {
     -moz-transform:scaleX(-1);
@@ -6883,10 +6883,10 @@ to {
 }
 .motion-switcher-table th:hover {
     background-color:rgba(245,245,245,.5);
-    color:#e65a56
+    color:orange
 }
 .motion-switcher-table .on-hover {
-    color:#e65a56
+    color:orange
 }
 .motion-container {
     height:110px;
@@ -7118,7 +7118,7 @@ to {
     cursor:pointer
 }
 .insert-image-tips:hover {
-    color:#e65a56;
+    color:orange;
     border:1px solid orange
 }
 .insert-image-button {
@@ -7132,7 +7132,7 @@ to {
     cursor:pointer
 }
 .insert-image-tips-hover {
-    color:#e65a56;
+    color:orange;
     border:1px solid orange
 }
 .upload-image-preview {
@@ -7536,7 +7536,7 @@ to {
     padding:5px 5px;
     height:40px;
     width:calc(50% - 10px);
-    font-size:16px;
+    font-size:15px;
     font-weight:400;
     text-align:center;
     white-space:nowrap;
@@ -7729,7 +7729,7 @@ img[src*="#in-center"] {
     font-size:25px
 }
 .poem-wrap p#info {
-    font-size:16px;
+    font-size:15px;
     margin:15px auto
 }
 .poem-border {

@@ -1,9 +1,3 @@
-.aplayer-container {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 400px;
-}
 #veditor {
     background-image: url(https://cdn.jsdelivr.net/gh/tikas/cdn@1.1/img/other/comment-bg.png);
     background-size: contain;
@@ -629,9 +623,8 @@ to {
     z-index:9999
 }
 @charset "utf-8";
-#content {
-    animation:main 1s;
-    position: relative;
+    #content {
+    animation:main 1s
 }
 .headertop,.pattern-center {
     animation:header 1s
@@ -987,12 +980,12 @@ button,input[type="button"],input[type="reset"],input[type="submit"] {
     padding:.6em 1em .4em
 }
 button:hover,input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover {
-    /*border-color:#ccc #bbb #aaa;*/
-    /*box-shadow:inset 0 1px 0 rgba(255,255,255,.8),inset 0 15px 17px rgba(255,255,255,.8),inset 0 -5px 12px rgba(0,0,0,.02)*/
+    border-color:#ccc #bbb #aaa;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.8),inset 0 15px 17px rgba(255,255,255,.8),inset 0 -5px 12px rgba(0,0,0,.02)
 }
 button:focus,input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,button:active,input[type="button"]:active,input[type="reset"]:active,input[type="submit"]:active {
-    /*border-color:#aaa #bbb #bbb;*/
-    /*box-shadow:inset 0 -1px 0 rgba(255,255,255,.5),inset 0 2px 5px rgba(0,0,0,.15)*/
+    border-color:#aaa #bbb #bbb;
+    box-shadow:inset 0 -1px 0 rgba(255,255,255,.5),inset 0 2px 5px rgba(0,0,0,.15)
 }
 input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="number"],input[type="tel"],input[type="range"],input[type="date"],input[type="month"],input[type="week"],input[type="time"],input[type="datetime"],input[type="datetime-local"],input[type="color"],textarea {
     color:#666;
@@ -3842,29 +3835,15 @@ li.feature-2 {
     display:initial;
     vertical-align:middle
 }
-.headertop {
+@media(max-width:860px) {
+    .notice {
+    margin-top:40px;
+    margin-bottom:20px
+}
+}.headertop {
     position:relative;
     overflow:hidden;
     height:0
-}
-@media(max-width:860px) {
-    .notice {
-        display: none;
-        margin-top:40px;
-        margin-bottom:20px
-    }
-    .headertop {
-        position:relative;
-        overflow:visible;
-        height:0
-    }
-    .video-stu {
-        display: none;
-    }
-    .headertop-bar::after {
-        height: 2.375rem !important;
-        bottom: -0.999rem !important;
-    }
 }
 .headertop::before {
     content:'';
@@ -3906,7 +3885,7 @@ li.feature-2 {
 .headertop-down {
     position:absolute;
     bottom:50px;
-    left:calc(50% - 14px);
+    left:50%;
     cursor:pointer;
     z-index:5
 }
@@ -3938,23 +3917,22 @@ li.feature-2 {
 }
 @media(max-width:860px) {
     #centerbg {
-        height:300px;
-        background-attachment:scroll
-    }
-    .focusinfo .header-tou img {
-        width: 100px !important;
-        height: 100px !important;
-    }
-    .header-info {
-        width: 90% !important;
-    }
-    .header-info:before {
-        top: 98px !important;
-    }
-    .top-social_v2 li {
-        margin-right: 0px !important; 
-        cursor: url(https://cdn.jsdelivr.net/gh/tikas/cdn@1.1/img/cursor/ayuda.cur),auto !important;
-    }
+    height:300px;
+    background-attachment:scroll
+}
+.focusinfo .header-tou img {
+    width: 100px !important;
+}
+.header-info {
+    width: 90% !important;
+}
+.header-info:before {
+    top: 98px !important;
+}
+.top-social_v2 li {
+    margin-right: 0px !important; 
+    cursor: url(https://cdn.jsdelivr.net/gh/tikas/cdn@1.1/img/cursor/ayuda.cur),auto !important;
+}
 }
 #bgvideo {
     position: absolute;
@@ -3991,8 +3969,6 @@ li.feature-2 {
     border-radius:100%
 }
 .focusinfo .header-tou img {
-    width:130px;
-    height:130px;
     box-shadow:inset 0 0 10px #000;
     padding:5px;
     opacity:1;
@@ -4653,10 +4629,6 @@ i.iconfont.down {
 #pagination.pagination-archive {
     margin:80px 0
 }
-.share-mobile {
-    display: none !important;
-}
-
 @media(max-width:630px) {
     .works-list {
         width:100% !important;
@@ -4750,9 +4722,6 @@ i.iconfont.down {
     .post-footer,.post-share,.post-like {
         display:none
     }
-    .share-mobile {
-        display:inline-block !important;
-    }
     .post-tags {
         text-align:center;
         float:none;
@@ -4776,7 +4745,7 @@ i.iconfont.down {
     .site-branding {
         float:right;
         height:50px;
-        line-height:48px;
+        line-height:43px;
         margin-right: 6px
     }
     .site-title img {
@@ -4857,7 +4826,7 @@ h3#comments-list-title,nav#comments-navi {
     transition:all .3s ease
 }
 .wrapper section {
-    /*max-width:600px*/
+    max-width:600px
 }
 .wrapper section h1 {
     font-weight:300;
@@ -4978,7 +4947,7 @@ i.iconfont.js-toggle-search.iconsearch {
 #mo-nav ul {
     width:200px;
     height:auto;
-    padding: 0px;
+    margin:10px 9px
 }
 #mo-nav ul:hover li {
     color:rgba(255,255,255,.5)
@@ -6124,7 +6093,7 @@ button.botui-actions-buttons-button {
     z-index:99;
     visibility:visible;
     writing-mode:vertical-rl;
-    transition-property:left,bottom;
+    transiton-property:left,bottom;
     transition-duration:.5s,.5s
 }
 .live2d-tool:hover {
@@ -6160,7 +6129,7 @@ button.botui-actions-buttons-button {
     font-weight:bold;
     z-index:99;
     writing-mode:vertical-rl;
-    transition-property:margin-left,bottom;
+    transiton-property:margin-left,bottom;
     transition-duration:.5s,.5s
 }
 .isWebKit .live2d-tool:hover {
@@ -6172,7 +6141,7 @@ button.botui-actions-buttons-button {
     .live2d-tool {
     margin-left:0;
     left:-17px;
-    transition-property:left,bottom
+    transiton-property:left,bottom
 }
 .live2d-tool:hover {
     margin-left:0
@@ -6228,6 +6197,19 @@ button.botui-actions-buttons-button {
     width:100%;
     height:100%
 }
+.hearthstone-deck {
+    overflow:hidden
+}
+.hearthstone-deck-container {
+    background:url(https://cdn.jsdelivr.net/gh/tikas/cdn@1.1/img/other/loading-bilibili.gif);
+    background-repeat:no-repeat;
+    background-size:94px 82px;
+    background-position:center;
+    border:8px solid #dec79b;
+    border-width:7px;
+    -o-border-image:url(https://cdn.jsdelivr.net/gh/tikas/cdn@1.1/img/other/hearthstone_border.png) 7 stretch;
+    border-image:url(https://cdn.jsdelivr.net/gh/tikas/cdn@1.1/img/other/hearthstone_border.png) 7 stretch
+}
 #Snow {
     position:fixed;
     top:0;
@@ -6258,7 +6240,7 @@ button.botui-actions-buttons-button {
     z-index:99;
     font-family:'Ubuntu';
     padding:10px 20px;
-    transition-property:right;
+    transiton-property:right;
     transition-duration:.3s,.3s
 }
 .changeSkin .keys {
@@ -6495,6 +6477,12 @@ to {
     color:#fb7299;
     border-radius:3px;
     font-weight:400
+}
+.mashiro-author-info {
+    /*background:url('//static.mashiro.top/wp-content/themes/Sakura/images/LOGO-Unicorn-Gradient.svg');*/
+    width:200px;
+    height:200px;
+    margin:auto
 }
 .itempic {
     min-height:280px;
@@ -6944,7 +6932,7 @@ to {
     top:0;
     height:3px;
     background:#bebebe;
-    transition-property:width,background;
+    transiton-property:width,background;
     transition-duration:1s,1s;
     z-index:99999
 }
@@ -7283,7 +7271,6 @@ to {
     z-index:2
 }
 .highlight-wrap {
-    position: relative;
     background:#21252b;
     border-radius:5px;
     font:15px/22px "Microsoft YaHei","Arial",Sans-Serif;
@@ -7485,7 +7472,7 @@ to {
     z-index:99;
     font-family:'Ubuntu',sans-serif;
     transform:scaleX(0);
-    transition-property:transform,background;
+    transiton-property:transform,background;
     transition-duration:.3s,.3s
 }
 .skin-menu.show {
@@ -7632,26 +7619,28 @@ img[src*="#in-center"] {
     width:auto;
     height:65px;
     background:url("https://cdn.jsdelivr.net/gh/tikas/cdn@1.1/img/other/wave1.png") repeat-x;
+    _filter:alpha(opacity=80);
     position:absolute;
     bottom:0;
     width:400%;
     left:-236px;
     z-index:5;
     opacity:1;
-    transition-property:opacity,bottom;
+    transiton-property:opacity,bottom;
     transition-duration:.4s,.4s
 }
 #banner_wave_2 {
     width:auto;
     height:80px;
     background:url("https://cdn.jsdelivr.net/gh/tikas/cdn@1.1/img/other/wave2.png") repeat-x;
+    _filter:alpha(opacity=80);
     position:absolute;
     bottom:0;
     width:400%;
     left:0;
     z-index:4;
     opacity:1;
-    transition-property:opacity,bottom;
+    transiton-property:opacity,bottom;
     transition-duration:.4s,.4s
 }
 .banner_wave_hide,.banner_wave_hide_fit_skin {
@@ -7792,45 +7781,4 @@ td.hljs-ln-numbers {
     vertical-align: top;
     left: 0;
     width: 30px;
-}
-.post-share:hover .show-share, .post-share:hover .sharehidden {
-    opacity: 1;
-    display: inline-block;
-}
-#page {
-    min-height: calc(100vh - 150px);
-}
-.entry-content * {
-    box-sizing: border-box;
-}
-.entry-content pre.highlight-wrap .copy-code {
-    color: #fff;
-    position: absolute;
-    float: right;
-    right: 10px;
-    top: 0;
-    padding-top: 4px;
-    padding-right: 2px;
-    z-index: 2;
-    font-size: 16px;
-}
-.toc {
-    width: 200px;
-    height: auto;
-    z-index: 98;
-    background-color: rgba(255,255,255,0);
-    transform: translateX(0);
-    right: calc((100% - 950px - 250px) / 2);
-    top:10px;
-    position: absolute;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.toc-fixed {
-    position: fixed !important;
-    top: 85px;
-}
-
-@media(max-width:1200px) {
-    .toc {display: none;}
 }
