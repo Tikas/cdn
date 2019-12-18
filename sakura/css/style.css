@@ -2050,10 +2050,10 @@ i.iconfont.hotpost {
 }
 .entry-content .begin,.single-begin {
     float:left;
-    font-size:4.6em;
-    line-height:1.3em;
+    font-size:3.6em;
+    line-height:1em;
     margin-right:3px;
-    margin-top:5px;
+    margin-top:2px;
     font-weight:bold
 }
 @media screen and (max-width:860px) {
