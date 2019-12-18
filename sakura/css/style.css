@@ -2050,10 +2050,10 @@ i.iconfont.hotpost {
 }
 .entry-content .begin,.single-begin {
     float:left;
-    font-size:3.6em;
+    font-size:4.6em;
     line-height:1em;
     margin-right:3px;
-    margin-top:2px;
+    margin-top:5px;
     font-weight:bold
 }
 @media screen and (max-width:860px) {
@@ -6305,8 +6305,9 @@ button.botui-actions-buttons-button {
     font-size:20px
 }
 .changeSkin-gear i {
-    font-size:20px;
-    position:relative;
+    font-size:20px
+}
+}position:relative;
     z-index:99;
     cursor:pointer
 }
