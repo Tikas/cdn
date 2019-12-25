@@ -763,6 +763,13 @@ sub {
 img {
     border:0
 }
+.entry-content p img{
+    display:block;
+    margin:0 auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px
+}
 svg:not(:root) {
     overflow:hidden
 }
@@ -3368,6 +3375,7 @@ a.page-numbers {
     max-width:40px;
     height:40px;
     border-radius:100%;
+    text-align:center;
     -webkit-transition:opacity .15s ease-out;
     -moz-transition:opacity .15s ease-out;
     transition:opacity .15s ease-out
